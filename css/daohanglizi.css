@@ -1,0 +1,299 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaheiUI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;;
+	color: #666;
+}
+.tab1-h2{
+	font-size: 20px;
+	text-align: center;
+	color: #0059B2;
+	letter-spacing: 1px;
+}
+.tab1-p{
+	font-size: 15px;
+	text-align: center;
+	color: #999;
+	letter-spacing: 1px;
+	margin: 20px 0 40px 0;
+}
+.tab1 {
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .media-heading{
+	margin: 5px 0 20px 0;
+}
+.tab1 .text-muted{
+	text-decoration: line-through;
+	color: #999;
+}
+.tab1 .col{
+	padding: 20px;
+}
+#footer{
+	padding: 20px;
+	background: #666;
+	text-align: center;
+	color: #eee;
+}
+.tab2{
+	padding: 60px 20px;
+	background: #eee;
+	text-align: center;
+}
+.tab2 img{
+	width: 40%;
+	height: 40%;
+}
+.tab3{
+	padding: 60px 0;
+	text-align: center;
+}
+.tab3 img{
+	width: 65%;
+	height: 65%;
+}
+.text h3{
+	font-size: 20px;
+}
+.text p{
+	font-size: 14px;
+}
+.jumbotron{
+	margin: 50px 0 0 0;
+	background: #ccc;
+	background-image: url(../img/bg.jpg);
+	color: #ccc;
+	padding: 60px 0;
+}
+.jumbotron h1{
+	font-size: 26px;
+	padding: 0 0 0 20px;
+}
+.jumbotron p{
+	font-size: 14px;
+	padding: 0 0 0 20px;
+}
+#information{
+	background: #eee;
+	padding: 20px 0;
+}
+.info-content{
+	background: #FFFFFF;
+	margin:0 0 8px 0;
+	box-shadow: 2px 2px 3px #CCCCCC;
+}
+.info-content img{
+	margin: 12px 0 12px 0;
+}
+.info-content h4{
+	font-size:14px;
+	color:#333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.info-content p{
+	line-height: 1.6;
+}
+.info-right{
+	background: #FFFFFF;
+	box-shadow: 2px 2px 3px #CCCCCC;
+}
+.info-right blockquote{
+	padding: 0;
+	margin: 0;
+}
+.info-right h2{
+	color:#333;
+	font-size: 20px;
+	padding: 5px;
+}
+.info-right h4{
+	color:#333333;
+	font-size: 16px;
+	line-height: 1.6;
+}
+#case{
+	background: #EEEEEE;
+	padding: 40px 0;
+	text-align: center;
+}
+#case h4{
+	color: #666666;
+}
+#case p{
+	color: #666666;
+	line-height:1.6 ;
+}
+
+/*关于页面*/
+#about{
+	background: #EEEEEE;
+	padding: 40px 15px;
+}
+#about a{
+	color: #0059B2;
+}
+#about .about{
+	background: #FFFFFF;
+	box-shadow: 2px 2px 3px #CCCCCC;
+}
+#about h3{
+	color: #333333;
+	font-size: 18px;
+	padding: 20px 0;
+	border-bottom: 1px solid #CCCCCC;
+	margin:0 0 10px 0;
+}
+#about p{
+	line-height:2 ;
+	font-size: 13px;
+}
+
+
+
+
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/*小屏幕（平板，大于等于768px*/
+@media (min-width: 768px) {
+	.tab-h2 {
+	font-size: 26px;
+	}
+	.tab-p {
+	font-size: 16px;
+	}
+	.text h3{
+	font-size: 22px;
+    }
+   .text p{
+	font-size: 15px;
+    }
+    .im{
+    	float: right;
+    }
+    .di{
+    	float: left;
+    }
+    .jumbotron h1{
+		font-size: 30px;
+	}
+	.jumbotron p{
+		font-size: 16px;
+	}
+	.info-content h4{
+		font-size:14px;
+		color:#333;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.info-content p{
+		line-height: 1.6;
+	}
+	.info-content{
+		margin-bottom: 12px;
+	}
+	#information{
+		padding: 25px 0;
+	}
+	#about h3{
+		font-size: 19px;
+	}
+	#about p{
+		font-size: 14px;
+	}
+}
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab-h2 {
+	font-size: 28px;
+	}
+	.tab-p {
+	font-size: 17px;
+	}
+	.text h3{
+	font-size: 24px;
+    }
+   .text p{
+	font-size: 16px;
+    }
+    .im{
+    	float: right;
+    }
+    .di{
+    	float: left;
+    }
+    .jumbotron h1{
+		font-size: 33px;
+	}
+	.jumbotron p{
+		font-size: 17px;
+	}
+	.info-content h4{
+		font-size:18px;
+		color:#333;
+	}
+	.info-content p{
+		line-height: 1.6;
+	}
+	.info-content{
+	margin-bottom: 16px;
+	}
+	#information{
+	padding: 30px 0;
+	}
+	#about h3{
+	font-size: 20px;
+	}
+	#about p{
+		font-size: 15px;
+	}
+}
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab-h2 {
+	font-size: 30px;
+	}
+	.tab-p {
+	font-size: 18px;
+	}
+	.text h3{
+	font-size: 26px;
+    }
+   .text p{
+	font-size: 17px;
+    }
+    .im{
+    	float: right;
+    }
+    .di{
+    	float: left;
+    }
+    .jumbotron h1{
+		font-size: 36px;
+	}
+	.jumbotron p{
+		font-size: 18px;
+	}
+	.info-content h4{
+		font-size:20px;
+		color:#333;
+	}
+	.info-content p{
+		line-height: 1.6;
+	}
+	.info-content{
+	margin-bottom: 20px;
+	}
+	#information{
+	padding: 40px 0;
+	}
+	#about h3{
+	font-size: 22px;
+	}
+	#about p{
+		font-size: 16px;
+	}
+}
